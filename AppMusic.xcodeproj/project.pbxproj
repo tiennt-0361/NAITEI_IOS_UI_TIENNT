@@ -13,6 +13,7 @@
 		BB1C52A42A8CD3DA0044FF6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1C52A22A8CD3DA0044FF6F /* Main.storyboard */; };
 		BB1C52A62A8CD3DD0044FF6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1C52A52A8CD3DD0044FF6F /* Assets.xcassets */; };
 		BB1C52A92A8CD3DD0044FF6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1C52A72A8CD3DD0044FF6F /* LaunchScreen.storyboard */; };
+		BB1C52B12A8DFB860044FF6F /* MusicPlayView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1C52B02A8DFB860044FF6F /* MusicPlayView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BB1C52A52A8CD3DD0044FF6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB1C52A82A8CD3DD0044FF6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB1C52AA2A8CD3DD0044FF6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB1C52B02A8DFB860044FF6F /* MusicPlayView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MusicPlayView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		BB1C52902A8CD3DA0044FF6F = {
 			isa = PBXGroup;
 			children = (
+				BB1C52B02A8DFB860044FF6F /* MusicPlayView.storyboard */,
 				BB1C529B2A8CD3DA0044FF6F /* AppMusic */,
 				BB1C529A2A8CD3DA0044FF6F /* Products */,
 			);
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB1C52A92A8CD3DD0044FF6F /* LaunchScreen.storyboard in Resources */,
+				BB1C52B12A8DFB860044FF6F /* MusicPlayView.storyboard in Resources */,
 				BB1C52A62A8CD3DD0044FF6F /* Assets.xcassets in Resources */,
 				BB1C52A42A8CD3DA0044FF6F /* Main.storyboard in Resources */,
 			);
