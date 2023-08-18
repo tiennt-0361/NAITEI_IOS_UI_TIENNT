@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB07BFF22A9347240042BFC2 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07BFF12A9347240042BFC2 /* Audio.swift */; };
 		BB1C52BF2A8E26940044FF6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1C52BE2A8E26940044FF6F /* AppDelegate.swift */; };
 		BB1C52C32A8E26940044FF6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1C52C22A8E26940044FF6F /* ViewController.swift */; };
 		BB1C52C62A8E26940044FF6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1C52C42A8E26940044FF6F /* Main.storyboard */; };
 		BB1C52C82A8E269A0044FF6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1C52C72A8E269A0044FF6F /* Assets.xcassets */; };
 		BB1C52CB2A8E269A0044FF6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1C52C92A8E269A0044FF6F /* LaunchScreen.storyboard */; };
+		BBDEBEEF2A937E0600DB4DEA /* KhacBietToLon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBDEBEEE2A937E0600DB4DEA /* KhacBietToLon.mp3 */; };
+		BBDEBEF12A937E0F00DB4DEA /* LanCuoi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBDEBEF02A937E0F00DB4DEA /* LanCuoi.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB07BFF12A9347240042BFC2 /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
 		BB1C52BB2A8E26940044FF6F /* AppMusicA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMusicA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB1C52BE2A8E26940044FF6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB1C52C22A8E26940044FF6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		BB1C52C72A8E269A0044FF6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB1C52CA2A8E269A0044FF6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB1C52CC2A8E269A0044FF6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBDEBEEE2A937E0600DB4DEA /* KhacBietToLon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KhacBietToLon.mp3; sourceTree = "<group>"; };
+		BBDEBEF02A937E0F00DB4DEA /* LanCuoi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LanCuoi.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB07BFF02A9346F90042BFC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB07BFF12A9347240042BFC2 /* Audio.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB07BFF42A9347ED0042BFC2 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BB07BFF62A9348060042BFC2 /* KhacBietToLon */,
+				BB07BFF52A9347F90042BFC2 /* LanCuoi */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		BB07BFF52A9347F90042BFC2 /* LanCuoi */ = {
+			isa = PBXGroup;
+			children = (
+				BBDEBEF02A937E0F00DB4DEA /* LanCuoi.mp3 */,
+			);
+			path = LanCuoi;
+			sourceTree = "<group>";
+		};
+		BB07BFF62A9348060042BFC2 /* KhacBietToLon */ = {
+			isa = PBXGroup;
+			children = (
+				BBDEBEEE2A937E0600DB4DEA /* KhacBietToLon.mp3 */,
+			);
+			path = KhacBietToLon;
+			sourceTree = "<group>";
+		};
 		BB1C52B22A8E26940044FF6F = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +93,8 @@
 		BB1C52BD2A8E26940044FF6F /* AppMusicA */ = {
 			isa = PBXGroup;
 			children = (
+				BB07BFF42A9347ED0042BFC2 /* Sounds */,
+				BB07BFF02A9346F90042BFC2 /* Model */,
 				BB1C52BE2A8E26940044FF6F /* AppDelegate.swift */,
 				BB1C52C22A8E26940044FF6F /* ViewController.swift */,
 				BB1C52C42A8E26940044FF6F /* Main.storyboard */,
@@ -74,6 +115,7 @@
 				BB1C52B72A8E26940044FF6F /* Sources */,
 				BB1C52B82A8E26940044FF6F /* Frameworks */,
 				BB1C52B92A8E26940044FF6F /* Resources */,
+				BBDEBEF22A944C3F00DB4DEA /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -123,17 +165,40 @@
 			files = (
 				BB1C52CB2A8E269A0044FF6F /* LaunchScreen.storyboard in Resources */,
 				BB1C52C82A8E269A0044FF6F /* Assets.xcassets in Resources */,
+				BBDEBEF12A937E0F00DB4DEA /* LanCuoi.mp3 in Resources */,
+				BBDEBEEF2A937E0600DB4DEA /* KhacBietToLon.mp3 in Resources */,
 				BB1C52C62A8E26940044FF6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BBDEBEF22A944C3F00DB4DEA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BB1C52B72A8E26940044FF6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB07BFF22A9347240042BFC2 /* Audio.swift in Sources */,
 				BB1C52C32A8E26940044FF6F /* ViewController.swift in Sources */,
 				BB1C52BF2A8E26940044FF6F /* AppDelegate.swift in Sources */,
 			);
