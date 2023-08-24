@@ -13,8 +13,10 @@
 		BB1C52C62A8E26940044FF6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1C52C42A8E26940044FF6F /* Main.storyboard */; };
 		BB1C52C82A8E269A0044FF6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1C52C72A8E269A0044FF6F /* Assets.xcassets */; };
 		BB1C52CB2A8E269A0044FF6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1C52C92A8E269A0044FF6F /* LaunchScreen.storyboard */; };
+		BB88C4FE2A97487D00714149 /* PlayListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB88C4FC2A97487D00714149 /* PlayListCell.swift */; };
 		BBDEBEEF2A937E0600DB4DEA /* KhacBietToLon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBDEBEEE2A937E0600DB4DEA /* KhacBietToLon.mp3 */; };
 		BBDEBEF12A937E0F00DB4DEA /* LanCuoi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBDEBEF02A937E0F00DB4DEA /* LanCuoi.mp3 */; };
+		BBDEBEF72A9707D300DB4DEA /* PlayListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDEBEF62A9707D300DB4DEA /* PlayListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +28,10 @@
 		BB1C52C72A8E269A0044FF6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB1C52CA2A8E269A0044FF6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB1C52CC2A8E269A0044FF6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB88C4FC2A97487D00714149 /* PlayListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListCell.swift; sourceTree = "<group>"; };
 		BBDEBEEE2A937E0600DB4DEA /* KhacBietToLon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KhacBietToLon.mp3; sourceTree = "<group>"; };
 		BBDEBEF02A937E0F00DB4DEA /* LanCuoi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LanCuoi.mp3; sourceTree = "<group>"; };
+		BBDEBEF62A9707D300DB4DEA /* PlayListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayListTableViewController.swift; path = AppMusicA/PlayListTableViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +97,10 @@
 		BB1C52BD2A8E26940044FF6F /* AppMusicA */ = {
 			isa = PBXGroup;
 			children = (
+				BBDEBEF92A9712C300DB4DEA /* Cells */,
 				BB07BFF42A9347ED0042BFC2 /* Sounds */,
 				BB07BFF02A9346F90042BFC2 /* Model */,
+				BBDEBEF62A9707D300DB4DEA /* PlayListTableViewController.swift */,
 				BB1C52BE2A8E26940044FF6F /* AppDelegate.swift */,
 				BB1C52C22A8E26940044FF6F /* ViewController.swift */,
 				BB1C52C42A8E26940044FF6F /* Main.storyboard */,
@@ -103,6 +109,14 @@
 				BB1C52CC2A8E269A0044FF6F /* Info.plist */,
 			);
 			path = AppMusicA;
+			sourceTree = "<group>";
+		};
+		BBDEBEF92A9712C300DB4DEA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BB88C4FC2A97487D00714149 /* PlayListCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +213,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB07BFF22A9347240042BFC2 /* Audio.swift in Sources */,
+				BBDEBEF72A9707D300DB4DEA /* PlayListTableViewController.swift in Sources */,
 				BB1C52C32A8E26940044FF6F /* ViewController.swift in Sources */,
 				BB1C52BF2A8E26940044FF6F /* AppDelegate.swift in Sources */,
+				BB88C4FE2A97487D00714149 /* PlayListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

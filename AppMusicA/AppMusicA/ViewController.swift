@@ -1,7 +1,6 @@
 import UIKit
 import AVFoundation
 final class ViewController: UIViewController {
-    // obj
     @IBOutlet weak private var nameAudio: UILabel!
     @IBOutlet weak private var imageAudio: UIImageView!
     @IBOutlet weak private var performer: UILabel!
@@ -9,9 +8,8 @@ final class ViewController: UIViewController {
     @IBOutlet weak private var playBtn: UIButton!
     @IBOutlet weak private var nextBtn: UIButton!
     @IBOutlet weak private var playTimeCurrent: UISlider!
-    // Value
-    private var audioList: [Audio] = []
-    private var possition: Int = 0
+    var audioList: [Audio] = []
+    var possition: Int = 0
     private var player = AVAudioPlayer()
     private var timeCurrent = Timer()
     override func viewWillAppear(_ animated: Bool) {
