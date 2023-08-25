@@ -38,7 +38,6 @@ extension PlayListTableViewController: UITableViewDataSource, UITableViewDelegat
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "PlayListCell") as? PlayListCell {
-            print(indexPath.row)
                 cell.setInit(audio: audioList[indexPath.row])
                 return cell
             }
@@ -46,8 +45,8 @@ extension PlayListTableViewController: UITableViewDataSource, UITableViewDelegat
     }
     static let cellHeight: CGFloat = 105
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return PlayListTableViewController.cellHeight 
-        }
+        return PlayListTableViewController.cellHeight
+    }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         if let audioPlayView = storyboard?.instantiateViewController(
